@@ -19,7 +19,7 @@ public class HelloStrutsAction extends ActionSupport {
 
 		result=dto.getResult();
 
-		if(result.equals("MtSQLと接続できます。")){
+		if(result.equals("MySQLと接続できます。")){
 			ret=SUCCESS;
 		}else{
 			ret=ERROR;

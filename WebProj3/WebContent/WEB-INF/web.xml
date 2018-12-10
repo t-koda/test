@@ -6,8 +6,8 @@
   </welcome-file-list>
 
   <filter>
-   <filter-name>index.jsp</filter-name>
-   <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExcecuteFilter</filter-class>
+   <filter-name>struts2</filter-name>
+     <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
   </filter>
   <filter-mapping>
   <filter-name>struts2</filter-name>
