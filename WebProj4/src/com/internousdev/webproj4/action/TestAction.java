@@ -44,6 +44,11 @@ public class TestAction extends ActionSupport{
 	public void setPassword(String password){
 		this.password=password;
 	}
+
+	public List<LoginDTO> getLoginDTOList(){
+		return loginDTOList;
+	}
+
 	public void setLoginDTOList(List<LoginDTO> loginDTOList){
 		this.loginDTOList=loginDTOList;
 	}
