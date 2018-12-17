@@ -33,6 +33,7 @@ public class LoginDAO {
 				LoginDTO dto=new LoginDTO();
 				dto.setUsername(rs.getString("user_name"));
 				dto.setPassword(rs.getString("password"));
+				loginDTOList.add(dto);
 			}
 			if(loginDTOList.size()<=0){
 				LoginDTO dto=new LoginDTO();
